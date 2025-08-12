@@ -1,8 +1,6 @@
 # Conversor de Monedas Java
 
 ![Java](https://img.shields.io/badge/Language-Java-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
-
 ---
 
 ## Descripción
