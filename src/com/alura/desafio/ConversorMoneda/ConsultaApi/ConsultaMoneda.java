@@ -11,14 +11,11 @@ import java.net.http.HttpTimeoutException;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.net.ConnectException;
-import java.util.concurrent.CompletionException;
 
 public class ConsultaMoneda {
 
     private static  String API_KEY = "dc25c6763bdcc1488f9a8df6";
     private static  String ENDPOINT = "https://v6.exchangerate-api.com/v6/";
-    private static  Gson gson = new Gson();
-
 
     /**
      * Consulta las tasas de cambio para la moneda base indicada desde la API.
@@ -50,7 +47,7 @@ public class ConsultaMoneda {
             }
 
             String responseBody = response.body();
-            return gson.fromJson(responseBody, ConversorMoneda.class);
+            return new Gson().fromJson(responseBody, ConversorMoneda.class);
 
         } catch (HttpTimeoutException e) {
             System.err.println("Error: Tiempo de espera agotado al conectar con la API.");
