@@ -68,15 +68,6 @@ Se usa la clave pública de prueba, la cual se puede adquirir personalmente desd
 
 
 
----
-
-## Licencia
-
-Este proyecto está bajo la licencia MIT - lee el archivo [LICENSE](LICENSE) para más detalles.
-
----
-
-
 *Proyecto desarrollado para el desafío de conversor de monedas usando Java y API REST.*
 
 
