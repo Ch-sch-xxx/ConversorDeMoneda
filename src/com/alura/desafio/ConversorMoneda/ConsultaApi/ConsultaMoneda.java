@@ -14,7 +14,7 @@ import java.net.ConnectException;
 
 public class ConsultaMoneda {
 
-    private static  String API_KEY = "dc25c6763bdcc1488f9a8df6";
+    private static  String API_KEY = "tu-api-key-aqui";
     private static  String ENDPOINT = "https://v6.exchangerate-api.com/v6/";
 
     /**
